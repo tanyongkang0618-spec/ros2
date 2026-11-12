@@ -161,6 +161,7 @@ nav:
     - 二连杆机械臂肌肉骨骼建模与 MuJoCo 仿真: './muscle_arm_mujoco_simulation.md'
     - 拮抗共激活分析（二连杆机械臂肌肉骨骼仿真）: './muscle_arm_cocontraction_simulation.md'
 - 地面载具:
+    - RRT 快速随机扩展树路径规划: './ground/rrt_path_planning.md'
     - 小海龟多航点巡航与暂停恢复: 'chapter/chap1/turtle_waypoint_patrol/index.md'
     - 离线测试接入 GitHub Actions: './ground/offline_checks.md'
     - 编码器量化误差与速度估计滤波对比: './ground/encoder_quantization_velocity.md'
@@ -345,7 +346,7 @@ nav:
     - MuJoCo 地面无人车 SLAM 建图导航与神经网络控制: './ground/mujoco_ground_slam_nn_nav/README.md'
     - 地面坡度估计: './ground/ground_slope_estimation.md'
     - 急停闩锁与人工复位: './ground/estop_latch.md'
-
+   - 城市道路地面载具二维动力学、激光 SLAM 与神经网络导航: './ground/road_numpy_nn_slam.md'
 - 空域载具:
 
     - Town10立面自主巡航与图像采集: './air/town10_facade_cruise_capture/index.md'
@@ -535,6 +536,7 @@ nav:
         - Docker 开发环境: './water/docker.md'
         - HoloOcean ROS2 运行时容器: './water/docker_runtime.md'
     - 水域载具示例: './water/holoocean_examples.md'
+    - USV 会遇局面判定与 COLREGs 避让: './water/usv_colregs_avoidance.md'
     - 水下ROV仿真键盘控制与摄像头目标追踪: './water/rov_gazebo_sim.md'
     - 水下机器人物理仿真与 6-DOF 键盘运动控制: './water/rov_physical_simulation.md'
     - 水下 ROV 六自由度手操与抗流能力评测仿真: './water/rov_handling_eval.md'
